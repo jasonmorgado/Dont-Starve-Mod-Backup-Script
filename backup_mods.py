@@ -3,8 +3,8 @@ import shutil
 import sys
 
 # Set these manually if not using command line
-MODS_FOLDER_PATH = "E:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\mods"
-MODS_BACKUP_LOCATION = "C:\\Users\\jason\\Documents\\DST_mod_backups"
+MODS_FOLDER_PATH = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\mods"
+MODS_BACKUP_LOCATION = "C:\\Users\\UserName\\Documents\\DST_mod_backups"
 
 def move_folder(src_path, backup_path, mod_name):
     """
