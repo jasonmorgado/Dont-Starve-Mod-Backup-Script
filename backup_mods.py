@@ -63,6 +63,7 @@ def backup_mods(mods_folder_path, backup_path):
             for line in modinfo_file:
                 if line[:4] == "name":
                     mod_name = line.split('=')[1].strip(" \n")
+                    break
         
         # Copy to dest
         move_folder(mod_path, backup_path, mod_name)
